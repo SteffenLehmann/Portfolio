@@ -1,56 +1,56 @@
 ---
-title: "Demo Post 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
-tags: ["tokio"]
+title: "Adaptation of solar panels"
+description: "Jeg deltog i en design udfordring, hvor målet var at designe en app uden at bruge tekst, da målet var adopteringen af grøn teknologi af stammefolk i Namibia.."
+pubDate: "Sep 10 2021"
+heroImage: "/post1/UI_screenshot.png"
+tags: ["UI/UX", "Figma", "Mobile Interface Design", "Icon design"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer
-malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas
-pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse
-platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada
-fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea
-dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst
-quisque sagittis purus sit amet.
+<section>
+  <h2>Projektbeskrivelse:</h2>
+  <p>
+    I dette projekt deltog jeg i en unik designudfordring, der havde til formål at skabe en tekstfri mobilapplikation for at fremme 
+    adoptionen af grøn teknologi blandt indfødte samfund i Namibia. Målet var at designe en intuitiv app, der kunne vejlede brugere 
+    i brugen og vedligeholdelsen af solpaneler uden at anvende skriftlige instruktioner.
+  </p>
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum
-quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet.
-Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus.
-Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit
-ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt
-dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
-arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
-tempus urna et pharetra pharetra massa massa ultricies mi.
+  <h2>Kontekst & Antagelser:</h2>
+  <ul>
+    <li>Appen var designet til smartphone-brugere, med en antagelse om grundlæggende kendskab til mobilteknologi.</li>
+    <li>Designet fokuserede på små, mobile solpaneler, med vægt på bærbarhed og brugervenlighed.</li>
+    <li>Vi arbejdede under begrænsningen af ikke at bruge kropslige interaktioner fra telefonen, for at sikre enkelhed og tilgængelighed for brugerne.</li>
+  </ul>
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
-sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
-Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna
-fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et
-egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel
-turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra
-nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim
-praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus
-egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam
-ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor
-purus non. Amet dictum sit amet justo donec enim.
+  <h2>Motivation:</h2>
+  <ul>
+    <li>Projektet blev drevet af behovet for at skifte fra skriftlige til visuelle instruktioner, hvilket gjorde læringsprocessen mere tilgængelig.</li>
+    <li>Vi ønskede at give klare, visuelle retningslinjer for, hvordan man bruger og vedligeholder solpaneler, hvilket forbedrede adoptionen af bæredygtig teknologi.</li>
+  </ul>
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut
-consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra.
-Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor
-dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor
-dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque
-eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices
-tincidunt arcu. Id cursus metus aliquam eleifend mi.
+  <h2>Designmetode:</h2>
+  <h3>Litteratur og Inspirationer:</h3>
+  <ul>
+    <li>Ikoner blev inspireret af deltagerorienterede designprincipper (Andrew, 2018).</li>
+    <li>Appens kortinterface var baseret på koncepter fra Homestead-projektet (Rodil, 2012).</li>
+    <li>Metaforiske designelementer blev påvirket af "The Myth of Metaphor" (Cooper, 1995).</li>
+  </ul>
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus
-imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu
-cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt
-dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat
-sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
-Egestas integer eget aliquet nibh praesent tristique magna.
+  <h3>Prototypefunktioner:</h3>
+  <ul>
+    <li>En visuelt drevet startside, der viser hver funktion i appen.</li>
+    <li>Et hånd-ikon blev brugt på kortet til at symbolisere brugerinteraktion, hvilket forstærkede metaforen om berøring og kontrol.</li>
+    <li>Genbrugte logoer blev anvendt til at symbolisere velkendte handlinger, såsom USB-opladning og telefonopkald, ved brug af idiomer og metaforer.</li>
+    <li>Overvejelser blev gjort om kontaktknappens intuitive natur og brugen af røg som en metafor for en defekt enhed.</li>
+  </ul>
+
+  <h3>Visuelle Cues og Indikatorer:</h3>
+  <ul>
+    <li>Appen gav vejledning om, hvornår man skulle oplade solpanelerne, ved brug af visuelle indikatorer til at skelne mellem nat og dag, batteriniveauer og korrekt eller forkert brug.</li>
+    <li>Idiomatisk elementer som et "X" og flueben blev indarbejdet for at indikere forkerte og rigtige handlinger, mens farvekodning (grøn og rød) blev brugt til at formidle status, hvilket yderligere forbedrede forståelsen uden tekst.</li>
+    <li>Hjemknappen blev også designet som en metafor, hvilket forstærkede appens brugervenlige navigation.</li>
+  </ul>
+
+  <p><strong>Prototype:</strong><br />
+    <a href="https://www.figma.com/proto/rUz1cFKBB83lm2YbfP8662/UXD-Workshop?node-id=27-63&scaling=scale-down&page-id=0%3A1&starting-point-node-id=27%3A63&show-proto-sidebar=1" target="_blank">Se Prototype</a>
+  </p>
+</section>
