@@ -1,16 +1,147 @@
 ---
-title: "Demo Post 2"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "At fremkalde den mentale model af Medialogi"
+description: "Målet med kortsorteringen var at forstå, hvordan Medialogist-studerende ser deres færdighedssæt. 
+    Projektets målgruppe var Medialogi-studerende på 7. semester.."
 pubDate: "Sep 11 2022"
-heroImage: "/post_img.webp"
+heroImage: "/post2/plot.png"
 ---
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Slideshow</title>
+    <style>
+        .mySlides {display:none;}
+        .slideshow-container {
+            max-width: auto;
+            position: relative;
+            margin: auto;
+        }
+        .slideshow-container img {
+            width: auto;
+            height: 40vh;
+        }
+        /* Styles for navigation buttons */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            color: black;
+            cursor: pointer;
+            font-size: 20px;
+            padding: 10px 20px;
+            z-index: 99;
+        }
+        .nav-btn:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .nav-prev {
+            left: 10px;
+        }
+        .nav-next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Motivation:</h3>
+        <p>
+            Medialogi er et meget dårligt defineret og misforstået studie, og dette projekt forsøgte at kaste lys over, hvordan 
+            de studerende selv forstår deres kompetencer og viden. Derfor forsøgte jeg med en kortsorteringen at kortlægge hvordan Medialogist-studerende ser deres færdigheder. 
+            Projektets målgruppe var Medialogi-studerende på 7. semester.
+        </p>
+    <h4>Procedure:</h4>
+        <ul>
+            <li><b>Brainstorm i Padlet:</b> Under en workshop brainstormede vi omkring 150 kompetencer som jeg filtrerede ned til 93 som jeg brugte dem i en åben kortsortering. </li>
+            <li><b>Åben Kortsortering i Miro:</b> 15 deltagere fik Skriftlige instruktioner og et eksempel på en sortering. Kortene var fordelt i tre bunker for at gøre det mere overskueligt [Se billede 1].</li>
+            <li><b>Kortsorteringer:</b> Se billede 2 og 3 for nogen eksempler.</li>
+        </ul>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+<div class="slideshow-container">
+    <img class="mySlides" src="\post2\padlet.png">
+    <img class="mySlides" src="\post2\Picture1.png">
+    <img class="mySlides" src="\post2\Picture2.png">
+    <img class="mySlides" src="\post2\Picture3.png">
+    <img class="mySlides" src="\post2\data1.png">
+    <img class="mySlides" src="\post2\data2.png">
+    <img class="mySlides" src="\post2\data3.png">
+    <img class="mySlides" src="\post2\Picture4.png">
+    <img class="mySlides" src="\post2\plot.png">
+    <img class="mySlides" src="\post2\Picture5.jpg">
+    <img class="mySlides" src="\post2\Picture6.jpg">
+    <button class="nav-btn nav-prev">&#10094;</button>
+    <button class="nav-btn nav-next">&#10095;</button>
+</div>
+<span id=imageText></span>
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+<script>
+    var slideIndex = 1;
+    const images = NumberOfImages()
+    showSlides(slideIndex);
+    
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+    function NumberOfImages() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+        }
+        return slides.length
+    }
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+    function showSlides(slideIndex) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        //slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";
+        changeSpanText(slideIndex)
+    }
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+    function nextImg() {
+        if (slideIndex == images) {slideIndex = 1}
+        else
+        slideIndex = slideIndex + 1
+        showSlides(slideIndex)
+        changeSpanText(slideIndex)
+    }
+
+    function previousImg() {
+        if (slideIndex == 1) {slideIndex = images}
+        else
+        slideIndex = slideIndex - 1
+        showSlides(slideIndex)
+        changeSpanText(slideIndex)
+    }
+
+    document.querySelector(".nav-next").addEventListener("click", nextImg);
+    document.querySelector(".nav-prev").addEventListener("click", previousImg);
+
+    function changeSpanText(imageIndex) {
+        // Selecting the span element by its ID
+        var spanElement = document.getElementById('imageText');
+        var index = imageIndex - 1
+        const imageTextArray = [
+            "image 1",
+            "image 2",
+            "image 3",
+            "image 4",
+            "image 5",
+            "image 6",
+            "image 7",
+            "image 8",
+            "image 9",
+            "image 10",
+            "image 11"
+        ]
+        // Changing the text content of the span element
+        spanElement.textContent = 'Updated text '+imageTextArray[index];
+}
+</script>
+
+</body>
+</html>
