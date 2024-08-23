@@ -52,7 +52,7 @@ tags: ["Unity","BCI", "Interaktionsdesign", "UX design", "Designworkshops", "UI 
         <p>
             Hos REDO arbejdede jeg som UX-designer, hvor mine primære ansvarsområder hos REDO inkluderede analyse af deres system og indsamling af patientfeedback ved hjælp af en co-design workshop, samt at give anbefalinger til deres BCI rehabiliteringssystem brugerflade design. Anbefalingerne blev godt modtaget og implementeret. Derudover udviklede jeg også en ny "gamificeret" brugerflade i Unity til deres system, som de ville inkorporerer i deres system.
         </p>
-    <h4>Procedure:</h4>
+    <h3>Gennemgang:</h3>
     <div class="slideshow-container">
         <img class="mySlides" src="\post3\redo0.png">
         <img class="mySlides" src="\post3\redo2.png">

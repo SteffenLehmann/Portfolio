@@ -51,7 +51,7 @@ tags: ["Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX"]
         <p>
             Medialogi er et dårligt defineret og ofte misforstået studie, og dette projekt forsøgte at kaste lys over, hvordan de studerende selv forstår deres kompetencer og viden. Derfor forsøgte jeg med en kortsortering at kortlægge, hvordan Medialogist-studerende ser deres færdigheder. Projektets målgruppe var Medialogi-studerende på 7. semester.
         </p>
-    <h4>Procedure:</h4>
+    <h3>Gennemgang:</h3>
     <div class="slideshow-container">
         <img class="mySlides" src="\post2\padlet2.jpg">
         <img class="mySlides" src="\post2\Picture1.png">
