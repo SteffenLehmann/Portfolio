@@ -47,19 +47,13 @@ heroImage: "/post2/plot.png"
 <body>
     <h3>Motivation:</h3>
         <p>
-            Medialogi er et meget dårligt defineret og misforstået studie, og dette projekt forsøgte at kaste lys over, hvordan 
-            de studerende selv forstår deres kompetencer og viden. Derfor forsøgte jeg med en kortsorteringen at kortlægge hvordan Medialogist-studerende ser deres færdigheder. 
-            Projektets målgruppe var Medialogi-studerende på 7. semester.
+            Medialogi er et dårligt defineret og ofte misforstået studie, og dette projekt forsøgte at kaste lys over, hvordan de studerende selv forstår deres kompetencer og viden. Derfor forsøgte jeg med en kortsortering at kortlægge, hvordan Medialogist-studerende ser deres færdigheder. Projektets målgruppe var Medialogi-studerende på 7. semester.
         </p>
     <h4>Procedure:</h4>
-        <ul>
-            <li><b>Brainstorm i Padlet:</b> Under en workshop brainstormede vi omkring 150 kompetencer som jeg filtrerede ned til 93 som jeg brugte dem i en åben kortsortering. </li>
-            <li><b>Åben Kortsortering i Miro:</b> 15 deltagere fik Skriftlige instruktioner og et eksempel på en sortering. Kortene var fordelt i tre bunker for at gøre det mere overskueligt [Se billede 1].</li>
-            <li><b>Kortsorteringer:</b> Se billede 2 og 3 for nogen eksempler.</li>
-        </ul>
+ 
 
 <div class="slideshow-container">
-    <img class="mySlides" src="\post2\padlet.png">
+    <img class="mySlides" src="\post2\padlet2.jpg">
     <img class="mySlides" src="\post2\Picture1.png">
     <img class="mySlides" src="\post2\Picture2.png">
     <img class="mySlides" src="\post2\Picture3.png">
@@ -68,8 +62,6 @@ heroImage: "/post2/plot.png"
     <img class="mySlides" src="\post2\data3.png">
     <img class="mySlides" src="\post2\Picture4.png">
     <img class="mySlides" src="\post2\plot.png">
-    <img class="mySlides" src="\post2\Picture5.jpg">
-    <img class="mySlides" src="\post2\Picture6.jpg">
     <button class="nav-btn nav-prev">&#10094;</button>
     <button class="nav-btn nav-next">&#10095;</button>
 </div>
@@ -126,22 +118,21 @@ heroImage: "/post2/plot.png"
         var spanElement = document.getElementById('imageText');
         var index = imageIndex - 1
         const imageTextArray = [
-            "image 1",
-            "image 2",
-            "image 3",
-            "image 4",
-            "image 5",
-            "image 6",
-            "image 7",
-            "image 8",
-            "image 9",
-            "image 10",
-            "image 11"
+            "<b>Brainstorm i Padlet:</b> Under en workshop brainstormede vi omkring 150 kompetencer, som jeg filtrerede ned til 93, som jeg brugte i en åben kortsortering.",
+            "<b>Åben kortsortering i Miro:</b> 15 deltagere fik skriftlige instruktioner og et eksempel på en sortering. Kortene var fordelt i tre bunker for at gøre det mere overskueligt.",
+            "<b>Kortsorteringer:</b> Se billederne 3 og 4 for nogle eksempler.",
+            "<b>Kortsorteringer:</b> Se billedene 3 og 4 for nogle eksempler",
+            "<b>Standardisering af Kategorinavne:</b>  30 termer blev identificeret.",
+            "<b>Standardisering af kategorinavne:</b>  30 termer blev identificeret.",
+            "<b>Mønstre:</b>  Tælling af frekvensen af hvert kort pr. kategori. Nu kan K-means cluster-analyse anvendes.",
+            "<b>K-means Cluster-analyse:</b> Seks centroid-klynger vælges gennem albue-princippet",
+            "<b>De seks centroid-klynger:</b> esign, projektarbejde, implementering, tekniske værktøjer, research og dataindsamling/analyse. <br><b>Refleksion:</b> Afhængigheden af kvantitative data betyder, at jeg ikke kan bekræfte, at min forståelse af deres sortering er korrekt, da jeg ikke udførte interviews med deltagerne. Ydermere har jeg kategoriseret sorteringerne, så min forståelse af Medialogi har haft en indflydelse på resultatet."
         ]
         // Changing the text content of the span element
-        spanElement.textContent = 'Updated text '+imageTextArray[index];
+        spanElement.innerHTML = imageTextArray[index];
 }
 </script>
+
 
 </body>
 </html>
