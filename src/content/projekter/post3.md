@@ -114,6 +114,18 @@ tags: ["Unity","BCI", "Interaktionsdesign", "UX design", "Designworkshops", "UI 
     document.querySelector(".nav-next").addEventListener("click", nextImg);
     document.querySelector(".nav-prev").addEventListener("click", previousImg);
 
+    // Keyboard Navigation
+    document.addEventListener("keydown", function(event) {
+        switch (event.key) {
+            case "ArrowRight":
+                nextImg();
+                break;
+            case "ArrowLeft":
+                previousImg();
+                break;
+        }
+    });
+
     function changeSpanText(imageIndex) {
         // Selecting the span element by its ID
         var spanElement = document.getElementById('imageText');
