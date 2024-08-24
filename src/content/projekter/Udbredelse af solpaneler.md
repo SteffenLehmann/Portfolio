@@ -1,5 +1,5 @@
 ---
-title: "Adaptation of solar panels"
+title: "Udbredelse af solpaneler"
 description: "Jeg deltog i en design udfordring, hvor målet var at designe en app uden at bruge tekst, da målet var adopteringen af grøn teknologi af stammefolk i Namibia.."
 pubDate: "Sep 10 2021"
 heroImage: "/post1/UI_screenshot.png"
