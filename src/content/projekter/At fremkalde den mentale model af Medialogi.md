@@ -4,7 +4,7 @@ description: "Målet med kortsorteringen var at forstå, hvordan Medialogist-stu
     Projektets målgruppe var Medialogi-studerende på 7. semester."
 pubDate: "Sep 11 2022"
 heroImage: "/Portfolio/post2/plot.png"
-tags: ["Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX"]
+tags: ["AI","Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX"]
 ---
 <!DOCTYPE html>
 <html>
