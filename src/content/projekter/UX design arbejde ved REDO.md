@@ -2,7 +2,7 @@
 title: "UX design arbejde ved REDO"
 description: "Hos REDO arbejdede jeg som UX-designer, hvor mine primære ansvarsområder hos REDO inkluderede analyse af deres system og indsamling af patientfeedback ved hjælp af en co-design workshop, samt at give anbefalinger til deres BCI rehabiliteringssystem brugerflade design."
 pubDate: "Jan 25 2023"
-heroImage: "/post3/UI2.png"
+heroImage: "/Portfolio/post3/UI2.png"
 badge: "Praktik"
 tags: ["Unity","BCI", "Interaktionsdesign", "UX design", "Designworkshops", "UI Design"]
 ---
@@ -54,15 +54,15 @@ tags: ["Unity","BCI", "Interaktionsdesign", "UX design", "Designworkshops", "UI 
         </p>
     <h3>Gennemgang:</h3>
     <div class="slideshow-container">
-        <img class="mySlides" src="\post3\redo0.png">
-        <img class="mySlides" src="\post3\redo2.png">
-        <img class="mySlides" src="\post3\redo1.jpg">
-        <img class="mySlides" src="\post3\redo3.jpg">
-        <img class="mySlides" src="\post3\redo4.jpg">
-        <img class="mySlides" src="\post3\redo5.jpg">
-        <img class="mySlides" src="\post3\redo6.jpg">
-        <img class="mySlides" src="\post3\tutorial.jpg">
-        <img class="mySlides" src="\post3\redo7.png">
+        <img class="mySlides" src="\Portfolio\post3\redo0.png">
+        <img class="mySlides" src="\Portfolio\post3\redo2.png">
+        <img class="mySlides" src="\Portfolio\post3\redo1.jpg">
+        <img class="mySlides" src="\Portfolio\post3\redo3.jpg">
+        <img class="mySlides" src="\Portfolio\post3\redo4.jpg">
+        <img class="mySlides" src="\Portfolio\post3\redo5.jpg">
+        <img class="mySlides" src="\Portfolio\post3\redo6.jpg">
+        <img class="mySlides" src="\Portfolio\post3\tutorial.jpg">
+        <img class="mySlides" src="\Portfolio\post3\redo7.png">
         <button class="nav-btn nav-prev">&#10094;</button>
         <button class="nav-btn nav-next">&#10095;</button>
     </div>

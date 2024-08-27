@@ -2,7 +2,7 @@
 title: "Nye Moodle-indlejringsfunktioner, der understøtter mange digitale værktøjer for undervisere."
 description: "Jeg udviklede en række indlejringer til Moodle i løbet af min tid på Aalborg Universitet. Indlejringerne er designet til at skabe en Moodle-oplevelse med mindre sideindlæsning ved at anvende en single page application-tilgang, samtidig med at undervisere kan integrere forskellige digitale læreværktøjer i deres kurser."
 pubDate: "Sep 12 2024"
-heroImage: "/post4/showcasePic.png"
+heroImage: "/Portfolio/post4/showcasePic.png"
 tags: ["UI Design", "JavaScript", "Brugeradfærdsanalyse", "Surveys", "Usability Studies"]
 ---
 
@@ -161,8 +161,8 @@ tags: ["UI Design", "JavaScript", "Brugeradfærdsanalyse", "Surveys", "Usability
             <div class="WrapControlCollapsible">
                 <div>
                     <div class="gif-container">
-                        <img src="\post4\Showcase1.gif" alt="GIF 1">
-                        <img src="\post4\Showcase2.gif" alt="GIF 2">
+                        <img src="/Portfolio/post4/Showcase1.gif" alt="GIF 1">
+                        <img src="/Portfolio/post4/Showcase2.gif" alt="GIF 2">
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ title: "At fremkalde den mentale model af Medialogi"
 description: "Målet med kortsorteringen var at forstå, hvordan Medialogist-studerende ser deres færdighedssæt. 
     Projektets målgruppe var Medialogi-studerende på 7. semester."
 pubDate: "Sep 11 2022"
-heroImage: "/post2/plot.png"
+heroImage: "/Portfolio/post2/plot.png"
 tags: ["Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX"]
 ---
 <!DOCTYPE html>
@@ -53,15 +53,15 @@ tags: ["Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX"]
         </p>
     <h3>Gennemgang:</h3>
     <div class="slideshow-container">
-        <img class="mySlides" src="\post2\padlet2.jpg">
-        <img class="mySlides" src="\post2\Picture1.png">
-        <img class="mySlides" src="\post2\Picture2.png">
-        <img class="mySlides" src="\post2\Picture3.png">
-        <img class="mySlides" src="\post2\data1.png">
-        <img class="mySlides" src="\post2\data2.png">
-        <img class="mySlides" src="\post2\data3.png">
-        <img class="mySlides" src="\post2\Picture4.png">
-        <img class="mySlides" src="\post2\plot.png">
+        <img class="mySlides" src="/Portfolio/post2/padlet2.jpg">
+        <img class="mySlides" src="/Portfolio/post2/Picture1.png">
+        <img class="mySlides" src="/Portfolio/post2/Picture2.png">
+        <img class="mySlides" src="/Portfolio/post2/Picture3.png">
+        <img class="mySlides" src="/Portfolio/post2/data1.png">
+        <img class="mySlides" src="/Portfolio/post2/data2.png">
+        <img class="mySlides" src="/Portfolio/post2/data3.png">
+        <img class="mySlides" src="/Portfolio/post2/Picture4.png">
+        <img class="mySlides" src="/Portfolio/post2/plot.png">
         <button class="nav-btn nav-prev">&#10094;</button>
         <button class="nav-btn nav-next">&#10095;</button>
     </div>
