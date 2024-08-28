@@ -1,7 +1,7 @@
 ---
 title: "Parkinson's Disease Classification."
 description: "This project focuses on detecting Parkinson's disease using machine learning methods. The project utilized both R and Python, compiled to HTML using RStudio."
-pubDate: "Sep 12 2024"
+pubDate: "Dec 12 2021"
 heroImage: "/Portfolio/post6/ConfusionMatrix.PNG"
 tags: ["AI", "Machine Learning", "Quantitative Analysis", "Python", "R"]
 ---
