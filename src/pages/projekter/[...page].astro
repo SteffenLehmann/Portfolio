@@ -12,16 +12,16 @@ export async function getStaticPaths({ paginate }) {
 
 const { page } = Astro.props;
 ---
-<BaseLayout title="Projekter" sideBarActiveItemID="projekter">
+<BaseLayout title="Projects" sideBarActiveItemID="projekter">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Projekter</div>
+    <div class="text-3xl w-full font-bold">Projects</div>
   </div>
 
   {
     page.data.length === 0 ? (
       <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
         <p class="font-bold">Hovsa!</p>
-        <p>Der er ikke nogle synlige projekter lige nu. Tag et kig senere!</p>
+        <p>There are no visible projects right now. Take a look later!</p>
       </div>
     ) : (
       <ul>
