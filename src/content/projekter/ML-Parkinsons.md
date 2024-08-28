@@ -1,6 +1,6 @@
 ---
-title: "Parkinson's disease classification."
-description: "This mini-project focuses on detecting Parkinson's disease using machine learning methods. The project utilized both R and Python, compiled to HTML using RStudio."
+title: "Parkinson's Disease Classification."
+description: "This project focuses on detecting Parkinson's disease using machine learning methods. The project utilized both R and Python, compiled to HTML using RStudio."
 pubDate: "Sep 12 2024"
 heroImage: "/Portfolio/post6/ConfusionMatrix.PNG"
 tags: ["AI", "Machine Learning", "Quantitative Analysis", "Python", "R"]
@@ -22,7 +22,7 @@ tags: ["AI", "Machine Learning", "Quantitative Analysis", "Python", "R"]
     </style>
 </head>
 <body>
-    <p>This mini-project focuses on detecting Parkinson's disease using machine learning methods. The project utilized both R and Python, compiled to HTML using RStudio.</p>
+    <p>This project focuses on detecting Parkinson's disease using machine learning methods. The project utilized both R and Python, compiled to HTML using RStudio.</p>
     <h4>Project Overview:</h4>
     <P><strong>Objective:</strong> A binary classification problem to determine if a subject has Parkinson's disease (status 1) or is healthy (status 0).<Br> <strong>Data:</strong> The dataset includes 22 features related to voice measurements.</p>
     <h4>Feature Selection and Data Preprocessing:</h4>

@@ -1,10 +1,10 @@
 ---
-title: "At fremkalde den mentale model af Medialogi"
-description: "Målet med kortsorteringen var at forstå, hvordan Medialogist-studerende ser deres færdighedssæt. 
-    Projektets målgruppe var Medialogi-studerende på 7. semester."
+title: "To Elicit the Mental Model of Medialogy"
+description: "The goal of the card sort was to understand how Medialogist students view their skill sets.
+ The project's target group was Media Studies students in the 7th semester."
 pubDate: "Sep 11 2022"
 heroImage: "/Portfolio/post2/plot.png"
-tags: ["AI","Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX"]
+tags: ["AI","Quantitative Analysis","Machine learning", "Open Card sort", "UX Research"]
 ---
 <!DOCTYPE html>
 <html>
@@ -47,11 +47,11 @@ tags: ["AI","Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX
     </style>
 </head>
 <body>
-    <h3>Motivation:</h3>
+    <h4>Motivation:</h4>
         <p>
-            Medialogi er et dårligt defineret og ofte misforstået studie, og dette projekt forsøgte at kaste lys over, hvordan de studerende selv forstår deres kompetencer og viden. Derfor forsøgte jeg med en kortsortering at kortlægge, hvordan Medialogist-studerende ser deres færdigheder. Projektets målgruppe var Medialogi-studerende på 7. semester.
+            Mediaology is a poorly defined and often misunderstood study, and this project tried to shed light on how the students themselves understand their competences and knowledge. That's why I tried to map how Medialogist students see their skills with a card sort. The project's target group was Media Studies students in the 7th semester.
         </p>
-    <h3>Gennemgang:</h3>
+    <h4>Walkthrough:</h4>
     <div class="slideshow-container">
         <img class="mySlides" src="/Portfolio/post2/padlet2.jpg">
         <img class="mySlides" src="/Portfolio/post2/Picture1.png">
@@ -66,7 +66,7 @@ tags: ["AI","Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX
         <button class="nav-btn nav-next">&#10095;</button>
     </div>
     <span id=imageText></span>
-    <a href="https://drive.google.com/file/d/1lZIK004HxXRWm9noGXCy_Qyqk9v_8Fr3/view?usp=sharing" target="_blank">Du kan læse mere her.</a>
+    <a href="https://drive.google.com/file/d/1lZIK004HxXRWm9noGXCy_Qyqk9v_8Fr3/view?usp=sharing" target="_blank">You can read more here.</a>
 
 <script>
     var slideIndex = 1;
@@ -130,15 +130,15 @@ tags: ["AI","Kvantitative dataanalyse","Machine learning", "Open Card sort", "UX
         var spanElement = document.getElementById('imageText');
         var index = imageIndex - 1
         const imageTextArray = [
-            "<b>Brainstorm i Padlet:</b> Under en workshop brainstormede vi omkring 150 kompetencer, som jeg filtrerede ned til 93, som jeg brugte i en åben kortsortering.",
-            "<b>Åben kortsortering i Miro:</b> 15 deltagere fik skriftlige instruktioner og et eksempel på en sortering. Kortene var fordelt i tre bunker for at gøre det mere overskueligt.",
-            "<b>Kortsorteringer:</b> Se billederne 3 og 4 for nogle eksempler.",
-            "<b>Kortsorteringer:</b> Se billedene 3 og 4 for nogle eksempler",
-            "<b>Standardisering af Kategorinavne:</b>  30 termer blev identificeret.",
-            "<b>Standardisering af kategorinavne:</b>  30 termer blev identificeret.",
-            "<b>Mønstre:</b>  Tælling af frekvensen af hvert kort pr. kategori. Nu kan K-means cluster-analyse anvendes.",
-            "<b>K-means Cluster-analyse:</b> Seks centroid-klynger vælges gennem albue-princippet",
-            "<b>De seks centroid-klynger:</b> design, projektarbejde, implementering, tekniske værktøjer, research og dataindsamling/analyse. <br><b>Refleksion:</b> Afhængigheden af kvantitative data betyder, at jeg ikke kan bekræfte, at min forståelse af deres sortering er korrekt, da jeg ikke udførte interviews med deltagerne. Ydermere har jeg kategoriseret sorteringerne, så min forståelse af Medialogi har haft en indflydelse på resultatet."
+            "<b>Brainstorm on Padlet:</b> During a workshop, we brainstormed about 150 competencies, which I filtered down to 93, which I used in an open card sort.",
+            "<b>Open Card Sort in Miro:</b> 15 participants were given written instructions and an example of a sorting. The cards were divided into three piles to make it more manageable.",
+            "<b>Card Sort:</b> See pictures 3 and 4 for some examples.",
+            "<b>Card Sort:</b> See pictures 3 and 4 for some examples",
+            "<b>Standardization of Category Names:</b> 30 terms were identified.",
+            "<b>Standardization of Category Names:</b> 30 terms were identified.",
+            "<b>Patterns:</b> Counting the frequency of each card per category. Now K-means cluster analysis can be applied.",
+            "<b>K-means Cluster Analysis:</b> Six centroid clusters are selected through the elbow principle",
+            "<b>The six centroid clusters:</b> design, project work, implementation, technical tools, research and data collection/analysis. <br><b>Reflection:</b> The reliance on quantitative data means that I do not can confirm that my understanding of their sorting is correct, as I did not conduct interviews with the participants. Furthermore, I have categorized the sortings, so my understanding of Medialogy has had an impact on the result."
         ]
         // Changing the text content of the span element
         spanElement.innerHTML = imageTextArray[index];

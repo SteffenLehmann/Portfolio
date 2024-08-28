@@ -1,6 +1,6 @@
 ---
 title: "Facilitating PROM Completion through Conversational Agent Strategies: Comparing Reflective Questions and Examples"
-description: "Min kandidatafhandling handlede om, hvordan en samtalebaseret AI kan hjælpe patienter med at forstå og besvare sundhedsspørgeskemaer."
+description: "This project explores the use of Conversational Agents (CAs) to improve the completion of Patient Reported Outcome Measures (PROMs) for stroke survivors. We developed a framework based on prior research to guide the design of CA interactions and conducted a design evaluation with stroke survivors to refine the interface and Likert scale selectors."
 pubDate: "Sep 12 2024"
 heroImage: "/Portfolio/post5/Get_help_automatically.png"
 tags: ["AI","Chatbot", "UI Design", "UX research", "Conversational AI", "Figma", "NLP"]
@@ -19,7 +19,7 @@ tags: ["AI","Chatbot", "UI Design", "UX research", "Conversational AI", "Figma",
         <p>Participants preferred the CA’s engaging conversational approach over traditional methods but faced challenges with the interface and conversational strategies, highlighting the need for improved onboarding.</p>
         <p>This study demonstrates the potential of CAs to enhance PROM collection through interactive and user-friendly design.</p>
     </section>
-    <img src="/Portfolio/post5/poster.png" alt="GIF 1">
+    <img src="/Portfolio/post5/poster.png" alt="poster">
     <a href="https://drive.google.com/file/d/1gJ4rlEEP0kt2rcM2Lh4g0kciHMX4og9t/view?usp=sharing" target="_blank">You can read more here.</a>
 </body>
 </html>

@@ -1,9 +1,9 @@
 ---
-title: "Nye Moodle-indlejringsfunktioner, der understøtter mange digitale værktøjer for undervisere."
-description: "Jeg udviklede en række indlejringer til Moodle i løbet af min tid på Aalborg Universitet. Indlejringerne er designet til at skabe en Moodle-oplevelse med mindre sideindlæsning ved at anvende en single page application-tilgang, samtidig med at undervisere kan integrere forskellige digitale læreværktøjer i deres kurser."
+title: "New Moodle embedding features that support many digital tools for educators."
+description: "I developed a number of embeds for Moodle during my time at Aalborg University. The embeds are designed to create a Moodle experience with less page loading by using a single page application approach, while allowing instructors to integrate various digital learning tools into their courses."
 pubDate: "Sep 12 2024"
 heroImage: "/Portfolio/post4/showcasePic.png"
-tags: ["UI Design", "JavaScript", "Brugeradfærdsanalyse", "Surveys", "Usability Studies"]
+tags: ["UI Design", "JavaScript", "User behavior analysis", "Surveys", "Usability Studies"]
 ---
 
 <!DOCTYPE html>
@@ -143,14 +143,12 @@ tags: ["UI Design", "JavaScript", "Brugeradfærdsanalyse", "Surveys", "Usability
     </style>
 </head>
 <body>
-    <h3>Motivation:</h3>
-        <p>
-            Jeg udviklede en række indlejringer til Moodle i løbet af min tid på Aalborg Universitet. Indlejringerne er designet til at skabe en Moodle-oplevelse med mindre sideindlæsning ved at anvende en single page application-tilgang, samtidig med at undervisere kan integrere forskellige digitale læreværktøjer i deres kurser. <a href="https://docs.google.com/presentation/d/1VAyQ2lqOxvX_CbFxFt33aPUxuxR2uFRz/pub?start=false&loop=false&delayms=3000" target="_blank">Se den virtuelle præsentation ved EDULearn 2024 her.</a>
-        </p>
-    <h3>Gennemgang:</h3>
+    <p>
+        I developed a series of embeds for Moodle during my time at Aalborg University. These embeds are designed to create a Moodle experience with less page reloading by using a single-page application approach, while allowing instructors to integrate various digital learning tools into their courses. <a href="https://docs.google.com/presentation/d/1VAyQ2lqOxvX_CbFxFt33aPUxuxR2uFRz/pub?start=false&loop=false&delayms=3000" target="_blank">View the virtual presentation at EDULearn 2024 here.</a>
+    </p>
     <div>
         <span>
-        Nedenfor finder du en af de templates, som jeg har designet og bygget. Den hedder Collapsible Section og er lavet til at organisere indhold på Moodle, så du ser relevant information. Du kan også sætte dem ind i hinanden, hvis du vil samle bestemt indhold, hvilket jeg anvender i projektbilleder, hvor tekst og Spotify iframes er gemt sammen. <a href="https://github.com/SteffenLehmann/Generico-Filter-Templates" target="_blank">Du kan finde dem alle her.</a>
+        Below you can find one of the templates I designed and built. It’s called Collapsible Section and is created to organize content on Moodle, so you can view relevant information. You can also nest them within each other if you want to group specific content, which I use in project images where text and Spotify iframes are hidden together. <a href="https://github.com/SteffenLehmann/Generico-Filter-Templates" target="_blank">You can find all of them here.</a>
         </span> 
     </div>
     <div class="TemplateContainerCollapsible">
