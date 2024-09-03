@@ -10,7 +10,9 @@ tags: ["AI", "UX Research", "Open Card Sort", "Machine Learning"]
 <html>
 <head>
     <style>
-        .mySlides {display:none;}
+        .mySlides {
+            display: none;
+        }
         .slideshow-container {
             max-width: auto;
             position: relative;
@@ -26,17 +28,17 @@ tags: ["AI", "UX Research", "Open Card Sort", "Machine Learning"]
             position: absolute;
             top: 0%;
             transform: translateY(-50%);
-            background-color: rgba(255, 255, 255, 0.7);
-            border: none;
+            background-color: rgba(238, 238, 238, 0.8);
             color: black;
             cursor: pointer;
             font-size: 20px;
             padding: 5px 10px;
             z-index: 99;
-            border-radius: 5px
+            border-radius: 5px;
         }
         .nav-btn:hover {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgb(97, 97, 97);
+            color: white;
         }
         .nav-prev {
             left: 10px;
