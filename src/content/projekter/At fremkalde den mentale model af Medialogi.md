@@ -50,9 +50,9 @@ tags: ["AI", "UX Research", "Open Card Sort", "Machine Learning"]
 </head>
 <body>
     <h4>Motivation:</h4>
-        <p>
-            Mediaology is a poorly defined and often misunderstood study, and this project tried to shed light on how the students themselves understand their competences and knowledge. That's why I tried to map how Medialogist students see their skills with a card sort. The project's target group was Media Studies students in the 7th semester.
-        </p>
+    <p>
+        Mediaology is a poorly defined and often misunderstood study, and this project tried to shed light on how the students themselves understand their competences and knowledge. That's why I tried to map how Medialogist students see their skills with a card sort. The project's target group was Media Studies students in the 7th semester.
+    </p>
     <h4>Walkthrough:</h4>
     <div class="slideshow-container">
         <img class="mySlides" src="/Portfolio/post2/padlet2.jpg">
@@ -67,84 +67,102 @@ tags: ["AI", "UX Research", "Open Card Sort", "Machine Learning"]
         <button class="nav-btn nav-prev">&#10094;</button>
         <button class="nav-btn nav-next">&#10095;</button>
     </div>
-    <span id=imageText></span>
+    <span id="imageText"></span>
     <a href="https://drive.google.com/file/d/1lZIK004HxXRWm9noGXCy_Qyqk9v_8Fr3/view?usp=sharing" target="_blank">You can read more here.</a>
-
 <script>
-    var slideIndex = 1;
-    const images = NumberOfImages()
-    showSlides(slideIndex);
-    
+  (function() {
+    // All code is inside an IIFE (Immediately Invoked Function Expression) to avoid global scope pollution
+    let slideIndex = 1; // Declare slideIndex only once
+    let totalImages = 0; // Declare totalImages variable
+    // Function to initialize the slideshow
+    function initSlideshow() {
+        totalImages = NumberOfImages(); // Calculate total number of images
+        showSlides(slideIndex); // Display the initial slide
+    }
     function NumberOfImages() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+        const slides = document.getElementsByClassName("mySlides");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; // Hide all slides initially
         }
-        return slides.length
+        slides[0].style.display = "block"; // Display the first image
+        console.log("NumberOfImages " + slides.length);
+        return slides.length; // Return total number of slides
     }
-
-    function showSlides(slideIndex) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+    function showSlides(index) {
+        const slides = document.getElementsByClassName("mySlides");
+        if (index > slides.length) {
+            slideIndex = 1; // Wrap around to the first slide
         }
-        //slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        slides[slideIndex-1].style.display = "block";
-        changeSpanText(slideIndex)
-    }
-
-    function nextImg() {
-        if (slideIndex == images) {slideIndex = 1}
-        else
-        slideIndex = slideIndex + 1
-        showSlides(slideIndex)
-        changeSpanText(slideIndex)
-    }
-
-    function previousImg() {
-        if (slideIndex == 1) {slideIndex = images}
-        else
-        slideIndex = slideIndex - 1
-        showSlides(slideIndex)
-        changeSpanText(slideIndex)
-    }
-
-    document.querySelector(".nav-next").addEventListener("click", nextImg);
-    document.querySelector(".nav-prev").addEventListener("click", previousImg);
-
-     // Keyboard Navigation
-    document.addEventListener("keydown", function(event) {
-        switch (event.key) {
-            case "ArrowRight":
-                nextImg();
-                break;
-            case "ArrowLeft":
-                previousImg();
-                break;
+        if (index < 1) {
+            slideIndex = slides.length; // Wrap around to the last slide
         }
-    });
-
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; // Hide all slides
+        }
+        slides[slideIndex - 1].style.display = "block"; // Show the current slide
+        changeSpanText(slideIndex); // Update the text for the current slide
+    }
+    function nextImg(step) {
+        slideIndex += step;
+        if (slideIndex > totalImages) {
+            slideIndex = 1;
+        }
+        showSlides(slideIndex);
+    }
+    function previousImg(step) {
+        slideIndex -= step;
+        if (slideIndex < 1) {
+            slideIndex = totalImages;
+        }
+        showSlides(slideIndex);
+    }
+    function addEventListeners() {
+        // Remove previous event listeners if they exist to prevent duplication
+        document.querySelector(".nav-next").removeEventListener("click", handleNextClick);
+        document.querySelector(".nav-prev").removeEventListener("click", handlePrevClick);
+        document.removeEventListener("keydown", handleKeyDown);
+        // Define click handlers
+        function handleNextClick() {
+            nextImg(1);
+        }
+        function handlePrevClick() {
+            previousImg(1);
+        }
+        function handleKeyDown(event) {
+            switch (event.key) {
+                case "ArrowRight":
+                    nextImg(1); // Move forward by 1 slide
+                    break;
+                case "ArrowLeft":
+                    previousImg(1); // Move backward by 1 slide
+                    break;
+            }
+        }
+        // Add new event listeners
+        document.querySelector(".nav-next").addEventListener("click", handleNextClick);
+        document.querySelector(".nav-prev").addEventListener("click", handlePrevClick);
+        document.addEventListener("keydown", handleKeyDown);
+    }
     function changeSpanText(imageIndex) {
-        // Selecting the span element by its ID
         var spanElement = document.getElementById('imageText');
-        var index = imageIndex - 1
+        var index = imageIndex - 1;
         const imageTextArray = [
             "<b>Brainstorm on Padlet:</b> During a workshop, we brainstormed about 150 competencies, which I filtered down to 93, which I used in an open card sort.",
-            "<b>Open Card Sort in Miro:</b> 15 participants were given written instructions and an example of a sorting. The cards were divided into three piles to make it more manageable.",
-            "<b>Card Sort:</b> See pictures 3 and 4 for some examples.",
-            "<b>Card Sort:</b> See pictures 3 and 4 for some examples",
-            "<b>Standardization of Category Names:</b> 30 terms were identified.",
-            "<b>Standardization of Category Names:</b> 30 terms were identified.",
-            "<b>Patterns:</b> Counting the frequency of each card per category. Now K-means cluster analysis can be applied.",
-            "<b>K-means Cluster Analysis:</b> Six centroid clusters are selected through the elbow principle",
-            "<b>The six centroid clusters:</b> design, project work, implementation, technical tools, research and data collection/analysis. <br><b>Reflection:</b> The reliance on quantitative data means that I do not can confirm that my understanding of their sorting is correct, as I did not conduct interviews with the participants. Furthermore, I have categorized the sortings, so my understanding of Medialogy has had an impact on the result."
-        ]
-        // Changing the text content of the span element
+                    "<b>Open Card Sort in Miro:</b> 15 participants were given written instructions and an example of a sorting. The cards were divided into three piles to make it more manageable.",
+                    "<b>Card Sort:</b> See pictures 3 and 4 for some examples.",
+                    "<b>Card Sort:</b> See pictures 3 and 4 for some examples",
+                    "<b>Standardization of Category Names:</b> 30 terms were identified.",
+                    "<b>Standardization of Category Names:</b> 30 terms were identified.",
+                    "<b>Patterns:</b> Counting the frequency of each card per category. Now K-means cluster analysis can be applied.",
+                    "<b>K-means Cluster Analysis:</b> Six centroid clusters are selected through the elbow principle.",
+                    "<b>The six centroid clusters:</b> design, project work, implementation, technical tools, research and data collection/analysis. <br><b>Reflection:</b> The reliance on quantitative data means that I do not can confirm that my understanding of their sorting is correct, as I did not conduct interviews with the participants. Furthermore, I have categorized the sortings, so my understanding of Medialogy has had an impact on the result."
+        ];
         spanElement.innerHTML = imageTextArray[index];
-}
+    }
+    // Initialize slideshow and event listeners
+    initSlideshow();
+    addEventListeners();
+    })(); // IIFE ends here
 </script>
 </body>
 </html>
