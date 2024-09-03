@@ -4,7 +4,7 @@ description: "The goal of the card sort was to understand how Medialogist studen
  The project's target group was Media Studies students in the 7th semester."
 pubDate: "Sep 11 2022"
 heroImage: "/Portfolio/post2/plot.png"
-tags: ["AI","Quantitative Analysis","Machine learning", "Open Card sort", "UX Research"]
+tags: ["AI", "UX Research", "Open Card Sort", "Machine Learning"]
 ---
 <!DOCTYPE html>
 <html>

@@ -3,7 +3,7 @@ title: "VR-Based UX Research for Predicting Fatigue"
 description: "This project utilized machine learning to explore the physiological effects of fatigue through positional tracking and performance data in a VR cancellation task. The goal was to diagnose egocentric neglect, a condition often seen in stroke patients, by predicting fatigue levels and understanding how users interact with a VR environment under varying levels of mental effort and distraction."
 pubDate: "Sep 12 2024"
 heroImage: "/Portfolio/post7/plot1.png"
-tags: ["AI", "Machine learning", "VR", "UX research", "UI design"]
+tags: ["AI", "Machine Learning", "Virtual Reality", "UX Research", "UI Design", "UX Design", "Healthcare"]
 ---
 <!DOCTYPE html>
 <html lang="en">

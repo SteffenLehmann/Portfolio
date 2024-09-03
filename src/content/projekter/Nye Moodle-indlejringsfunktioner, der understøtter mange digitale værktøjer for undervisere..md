@@ -3,7 +3,7 @@ title: "New Moodle embedding features that support many digital tools for educat
 description: "I developed a number of embeds for Moodle during my time at Aalborg University. The embeds are designed to create a Moodle experience with less page loading by using a single page application approach, while allowing instructors to integrate various digital learning tools into their courses."
 pubDate: "Jan 12 2024"
 heroImage: "/Portfolio/post4/showcasePic.png"
-tags: ["UI Design", "JavaScript", "User behavior analysis", "Surveys", "Usability Studies"]
+tags: ["UI Design", "UX Design", "Usability Studies", "JavaScript"]
 ---
 
 <!DOCTYPE html>

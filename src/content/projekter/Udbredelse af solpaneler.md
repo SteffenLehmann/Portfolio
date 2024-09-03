@@ -3,7 +3,7 @@ title: "Solar Panel Adoption"
 description: "I participated in a design challenge aimed at creating a text-free app to promote the adoption of green technology among indigenous communities in Namibia."
 pubDate: "Sep 10 2021"
 heroImage: "/Portfolio/post1/UI_screenshot.png"
-tags: ["UI and UX design", "Figma", "Mobile Interface Design", "Icon design"]
+tags: ["UI Design", "UX Design", "Figma"]
 ---
 
 <!DOCTYPE html>

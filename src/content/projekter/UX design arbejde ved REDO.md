@@ -4,7 +4,7 @@ description: "This project aims to refine the interface and feedback mechanisms 
 pubDate: "Jan 25 2023"
 heroImage: "/Portfolio/post3/UI2.png"
 badge: "Internship"
-tags: ["Unity","BCI", "Interaktionsdesign", "UX design", "Designworkshops", "UI Design"]
+tags: ["Healthcare", "BCI", "UI Design", "UX Design", "Unity"]
 ---
 
 <!DOCTYPE html>

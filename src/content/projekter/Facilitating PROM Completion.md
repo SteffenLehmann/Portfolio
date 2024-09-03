@@ -3,7 +3,7 @@ title: "AI-Driven Virtual Assistant for Stroke Patient for Facilitating PROM Com
 description: "This project explores the use of Conversational Agents (CAs) to improve the completion of Patient Reported Outcome Measures (PROMs) for stroke survivors. We developed a framework based on prior research to guide the design of CA interactions and conducted a design evaluation with stroke survivors to refine the interface and Likert scale selectors."
 pubDate: "Sep 12 2024"
 heroImage: "/Portfolio/post5/Get_help_automatically.png"
-tags: ["AI","Chatbot", "UI Design", "UX research", "Conversational AI", "Figma", "NLP"]
+tags: ["AI", "UX Research", "Conversational AI", "UI Design", "UX Design","NLP", "Figma", "Healthcare"]
 ---
 <html lang="en">
 <body>

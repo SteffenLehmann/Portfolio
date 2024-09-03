@@ -3,7 +3,7 @@ title: "AI-Driven Virtual Assistant for Stroke Patient Care Improvement"
 description: "This project aimed to enhance the care provided to stroke patients by leveraging AI and Natural Language Processing (NLP) to develop a prototype virtual assistant (VA)."
 pubDate: "April 12 2024"
 heroImage: "/Portfolio/post8/interface.png"
-tags: ["AI", "NLP", "UX Research", "Data Visualization", "Usability Studies"]
+tags: ["AI", "NLP", "Conversational AI", "UX Research", "Data Visualization", "Healthcare", "UI Design", "UX Design"]
 ---
 <!DOCTYPE html>
 <html lang="en">
